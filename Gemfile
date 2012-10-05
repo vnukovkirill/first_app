@@ -22,9 +22,6 @@ end
 
 gem 'jquery-rails'
 
-source :gemcutter
-gem 'rails'
-
 group :development, :test do
   gem 'sqlite3-ruby', :require => 'sqlite3'
 end
